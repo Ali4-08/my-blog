@@ -11,7 +11,7 @@ export default function BlogCard({ post }) {
     <div className="overflow-auto bg-white text-gray-800 dark:bg-gray-800 dark:text-gray-100 rounded-md shadow-md p-4 mb-2 border border-gray-300">
       <Link to={`/posts/${post.id}`}>
         <div className="space-y-2">
-          <h2 className="text-lg font-medium">{post.title}</h2>
+          <h2 className="text-lg font-bold">{post.title}</h2>
           <p className="">{post.body.slice(0, 50)} ....</p>
         </div>
       </Link>
