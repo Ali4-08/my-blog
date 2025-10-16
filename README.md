@@ -1,16 +1,44 @@
-# React + Vite
+# 📝 وبلاگ من — پروژه تمرینی با React و TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+این پروژه یک وبلاگ ساده، مدرن و کاملاً تعاملی است که با استفاده از React، TailwindCSS و Zustand ساخته شده. هدف اصلی این پروژه، تمرین معماری کامپوننت‌ها، مدیریت وضعیت، و پیاده‌سازی قابلیت‌های کاربردی برای تجربه‌ی کاربری روان و حرفه‌ای بوده است.
 
-Currently, two official plugins are available:
+🔗 [مشاهده نسخه آنلاین در Vercel](https://my-blog-zeta-lilac.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ امکانات پروژه
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 جستجو بین پست‌ها بر اساس عنوان و متن
+- 🗂️ فیلتر داخلی با استفاده از `search` در Zustand
+- 🌓 حالت تاریک/روشن با ذخیره‌سازی در Store و اعمال بر کل صفحه
+- ⏱️ نمایش زمان تقریبی مطالعه هر پست بر اساس تعداد کاراکترها
+- ❤️ سیستم لایک‌گذاری برای هر پست با مدیریت در Store
+- 🆕 فرم افزودن پست جدید با اعتبارسنجی و نمایش پیام موفقیت
+- 🚦 مدیریت بارگذاری و خطاها با پیام‌های واکنشی
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ تکنولوژی‌های استفاده‌شده
+
+| تکنولوژی | کاربرد |
+|----------|--------|
+| React | ساخت رابط کاربری و مدیریت مسیرها |
+| TailwindCSS | طراحی واکنش‌گرا و حالت تاریک |
+| Zustand | مدیریت وضعیت سراسری و ساده |
+| React Hook Form | اعتبارسنجی فرم افزودن پست |
+| JSONPlaceholder API | دریافت داده‌های تستی برای پست‌ها |
+| Vercel | انتشار سریع و رایگان پروژه |
+
+---
+
+
+## 🚀 نحوه اجرا و توسعه
+
+```bash
+# نصب وابستگی‌ها
+npm install
+
+# اجرای پروژه در حالت توسعه
+npm run dev
+
+
